@@ -1,6 +1,10 @@
 service:
   name: auction-service
 
+custom:
+  bundle:
+    linting: false
+
 plugins:
   - serverless-bundle
   - serverless-pseudo-parameters
